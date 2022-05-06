@@ -1,0 +1,207 @@
+header {
+    background-image: url(images/assets/bg02.jpg);
+    padding: 45px;
+}
+h1, h2, h3 {
+    color: white;
+}
+.text{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.black-font{
+    color: black;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+#Bar {
+    color: white;
+    display:flex;
+    position:relative;
+    left: 600px;
+    bottom: 45px;
+}
+
+#one {
+    position: relative;
+    left: 65px;
+}
+#two2 {
+    position: relative;
+    left: 35px;
+}
+#two1 {
+    position: relative;
+    left: 5px;
+}
+#three {
+    position: relative;
+    left: -25px;
+}
+#homepage {
+    position: relative;
+    left: -55px;
+}
+#body1 {
+    background-image: url(images/assets/bg01.jpg);
+    padding: 175px;
+    position: relative;
+}
+button {
+    background-color: rgb(221,41,14);
+    color: white;
+    border: none;
+    height: 50px;
+    width: 150px;
+    border-radius: 8px;
+}
+#banner {
+    position: absolute;
+    left: 850px;
+    bottom: 400px;
+    border:white solid 7px;
+}
+#images {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    position: relative;
+    left: -10px;
+}
+.image{
+    border: white solid 5px;
+}
+#body2 {
+    background-image: url(images/assets/bg04.jpg);
+    height: 275px;
+    padding: 35px;
+}
+p{
+    color: white;
+}
+#body3 {
+    background-image: url(images/assets/bg04.png);
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#part1 {
+    height: 450px;
+    width: 400px;
+    background-color: white;
+    position: relative;
+    top: 50px;
+}
+#part2 {
+    height: 450px;
+    width: 400px;
+    background-color: white;
+    position: relative;
+    top: 50px;
+}
+#part3 {
+    height: 450px;
+    width: 400px;
+    background-color: white;
+    position: relative;
+    top: 50px;
+}
+#picture {
+    position: relative;
+    top: 80px;
+    left: 13px;
+}
+#title1{
+    position: relative;
+    bottom: 85px;
+    left: 40px
+}
+#title2{
+    left: 95px;
+    position: relative;
+    bottom: 5px;
+}
+#title3{
+    position:relative;
+    left: 50px;
+}
+#picture-part{
+    position:relative;
+    left: 25px;
+}
+#paragraphe1{
+    position:relative;
+    left: 25px;
+}
+#liste1{
+    list-style-image: url(images/assets/icon-checkmark.png);
+    position:relative;
+    left: -55px;
+    bottom: -55px;
+}
+hr {
+    position: relative;
+    width: 250px;
+    right: 50px;
+}
+#client1{
+    position:relative;
+    left: 85px;
+    top: 25px;
+}
+#client1text{
+    position: relative;
+    top: -90px;
+    left: 115px;
+}
+#client2{
+    position: relative;
+    left: 85px;
+    top: -65px;
+}
+#client2text{
+    position: relative;
+    top: -90px;
+    left: 115px;
+}
+#client3{
+    position: relative;
+    left: 85px;
+    top: -155px;
+}
+#client3text{
+    position: relative;
+    top: -90px;
+    left: 115px;
+}
+footer{
+    background-image: url(images/assets/bg03.jpg);
+    height: 370px;
+}
+#Links{
+    position: relative;
+    top: 100px;
+    left: 150px
+}
+#grid{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    position: relative;
+    left: 150px;
+    top: 150px;
+}
+#info-part{
+    display:flex;
+    justify-content: flex-end;
+    position:relative;
+    top: -35px;
+    right: 90px
+}
+#info-text{
+    position: relative;
+    top: 45px;
+    right: 230px;
+}
+#fin{
+    text-align: center;
+    position:relative;
+    top: 90px;
+}
